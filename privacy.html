@@ -79,8 +79,10 @@
             margin-top: 8px;
             color: #555;
             font-size: 0.95em;
-            padding-left: 15px;
-            border-left: 2px dashed #eee;
+            /* 調整 padding-left 數值，使其對齊上方文字開頭 */
+            padding-left: 0; 
+            margin-left: 0;
+            display: block;
         }
 
         /* 手機版優化 */
@@ -118,8 +120,8 @@
             <div class="flex-text">
                 為了維持系統運作，我們會自動收集以下項目：
                 <div class="sub-info">
-                ・裝置識別碼：如 Android ID (Android) 或 IDFV (iOS)。<br>
-                ・系統設定：系統語系、平台類型、App 版本、螢幕尺寸。
+                    ・裝置識別碼：如 Android ID (Android) 或 IDFV (iOS)。<br>
+                    ・系統設定：系統語系、平台類型、App 版本、螢幕尺寸。
                 </div>
             </div>
         </div>
